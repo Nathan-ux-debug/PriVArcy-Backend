@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (usually too large for git)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Video / dataset files
+*.mp4
+*.avi
+*.mov
+*.mkv
+datasets/
+data/raw/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Generated output — extracted frames & detection results
+frames_out/
+detections_out/
